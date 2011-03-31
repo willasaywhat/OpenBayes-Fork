@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: OpenBayes
+Version: 0.1.0
+Summary: An OpenSource Python implementation of bayesian networks inspired by BNT.
+Home-page: http://www.openbayes.org
+Author: Kosta Gaitanis, Elliot Cohen
+Author-email: gaitanis@tele.ucl.ac.be, elliot.cohen@gmail.com
+License: modified Python
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: First Public Release
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Bayesian Networks
+Classifier: Topic :: Probabilistic Inference
+Classifier: Topic :: Learning Graphical models

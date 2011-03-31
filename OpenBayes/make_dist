@@ -1,0 +1,23 @@
+# this script will create the following distributions files for OpenBayes :
+# - source distribution (platform independant)
+# - windows installer (.exe)
+echo ========================================
+echo "IMPORTANT : "
+echo "  ??? Have you added the new files into the file MANIFEST ???"
+echo ========================================
+echo 
+echo ----------------------------------------
+echo "Creating Source Distribution (.tar.gz)"
+echo ----------------------------------------
+sudo python setup.py sdist 
+echo ----------------------------------------
+echo "Creating Windows Installer (.exe)"
+echo ----------------------------------------
+sudo python setup.py bdist_wininst
+
+# register to python cheese shop
+# python setup.py register
+
+# upload files to python cheese shop (only for python 2.5)
+# python setup.py sdist bdist_wininst upload
+# otherwise you have to put the files manually
