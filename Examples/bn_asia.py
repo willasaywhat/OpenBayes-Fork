@@ -1,6 +1,3 @@
-# William C. Riggins III
-# IST 562 Programming Assignment #6
-
 from OpenBayes import BNet, BVertex, DirEdge, JoinTree
 
 network = BNet('Asia Bayesian Network')
