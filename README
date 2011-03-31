@@ -1,6 +1,1 @@
-The repository contains a patched build of OpenBayes from openbayes.org which uses NumPy instead of numarray. Also,  readexcel needs to be in the Python path for the patched version to run. Readexcel requires the XLRD module, which can be installed from easy_install.
-
-Dependencies:
-
-readexcel Classhttp://code.activestate.com/recipes/483742/ XLRDhttp://pypi.python.org/pypi/xlrd NumPyhttp://numpy.scipy.org/
-If you want to patch the library for yourself, check out the following links: OpenBayes from SVNhttp://svn.berlios.de/svnroot/repos/pybayes/branches/Public/ OpenBayes NumPy Patchhttp://www.scipy.org/scipy/scikits/attachment/ticket/52/numpy.diff
+This repository contains a patched build of OpenBayes from openbayes.org which uses NumPy instead of numarray. Also, readexcel needs to be in the Python path for the patched version to run. Readexcel requires the XLRD module, which can be installed from easy_install. Please note that all licenses are retained by their respective owners. This repository is merely meant to make it easier for others to use the library now that numarray is deprecated.Dependencies:readexcel Classhttp://code.activestate.com/recipes/483742/ XLRDhttp://pypi.python.org/pypi/xlrd NumPyhttp://numpy.scipy.org/If you want to patch the library for yourself, check out the following links: OpenBayes from SVNhttp://svn.berlios.de/svnroot/repos/pybayes/branches/Public/ OpenBayes NumPy Patchhttp://www.scipy.org/scipy/scikits/attachment/ticket/52/numpy.diff
